@@ -8,11 +8,35 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
     display:block;
 }
 
+body {
+  max-width: 1200px;
+  margin:auto;
+}
 
  .col{
     padding-right: 0;
     padding-left: 0;
   }
-  img.img8 {
-      padding-left: 5.75%;
+
+
+  @media (min-width: 765px){
+
+  img {
+    margin: 0 auto;
   }
+  img.img8 {
+      padding-left: 7.75%;
+  }
+
+  .lastrow {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+  @media (min-width: 994px){
+
+    img.img8 {
+        padding-left: 23.2%;
+      }
+}
