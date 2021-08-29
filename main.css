@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+    display:block;
+}
+
+
+body {
+    background: #d2e1c1;
+    color:#888181;
+    font-family: 'Lato', sans-serif;
+    padding: 2%;
+}
+
+ul {
+     display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 3% 0 8%;
+    font-size: 1.1rem;
+    color: #5e2424;
+}
+
+li:hover { 
+    color: #ffffff;
+}
+
+p {
+    padding: 5% 0;
+    color: #312c2c
+}
